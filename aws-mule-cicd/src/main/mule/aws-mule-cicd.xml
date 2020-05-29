@@ -10,5 +10,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	<flow name="aws-mule-cicdFlow" doc:id="17636fb1-13e1-442a-9d88-b2c263be8187" >
 		<http:listener doc:name="Listener" doc:id="8b7c0609-c721-450c-9890-1bac5e7c5e64" config-ref="HTTP_Listener_config" path="/aws"/>
 		<logger level="INFO" doc:name="Logger" doc:id="9910e775-19db-4903-89ab-0bd4ae094b15" />
+		<logger level="INFO" doc:name="Logger" doc:id="5bad0d9c-998a-4b64-b707-b7412e049b49" />
 	</flow>
 </mule>
