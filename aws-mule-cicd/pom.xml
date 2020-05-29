@@ -26,6 +26,19 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
+					<cloudHubDeployment>
+						<uri>https://anypoint.mulesoft.com</uri>
+						<muleVersion>4.3.0</muleVersion>
+						<username>ybandaru</username>
+						<password>Yassu123</password>
+						<objectStoreV2>true</objectStoreV2>
+						<businessGroup>Miracle</businessGroup>
+						<workers>1</workers>
+						<workerType>Micro</workerType>
+						<region>us-west-1</region>
+						<environment>Sandbox</environment>
+		                <applicationName>aws-mule-cicd</applicationName>
+				   </cloudHubDeployment>
 				</configuration>
 			</plugin>
 		</plugins>
